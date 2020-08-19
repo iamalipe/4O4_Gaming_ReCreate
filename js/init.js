@@ -13,12 +13,12 @@ $(document).ready(function () {
   $('input#input_text, textarea#Description').characterCounter();
 });
 
-// firebase
+// Initialize Form
 document.getElementById("form4o4").addEventListener("submit", submitForm);
 
 function submitForm(e) {
   e.preventDefault();
-  console.log("Working");
+  // console.log("Working");
   //get input value
   let videolink = document.getElementById("VideoLink").value;
   let catagory = document.getElementById("Catagory").options[document.getElementById("Catagory").selectedIndex].value;
@@ -35,16 +35,15 @@ function submitForm(e) {
   //   "\nEmail: ", email,
   //   "\nDescription: ", description);
   saveInfo(videolink, catagory, ingamename, video_timestamp, realname, email, description);
+  alert("Thank you for Submit your Video");
   document.getElementById("form4o4").reset();
 }
 
-// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-let firebaseDB = firebase.database().ref("Information");
+const firebaseDB = firebase.firestore();
 
 function saveInfo(videolink, catagory, ingamename, video_timestamp, realname, email, description) {
-  let newFirebaseDB = firebaseDB.push();
-  newFirebaseDB.set({
+  firebaseDB.collection("Information").add({
     Video_Link: videolink,
     Catagory: catagory,
     In_Game_Name: ingamename,

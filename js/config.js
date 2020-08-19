@@ -1,11 +1,10 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyCYI2Geh_wndW9qCKrqjokgeuZTSPr85SQ",
-    authDomain: "alipe-test-project.firebaseapp.com",
-    databaseURL: "https://alipe-test-project.firebaseio.com",
-    projectId: "alipe-test-project",
-    storageBucket: "alipe-test-project.appspot.com",
-    messagingSenderId: "361562350094",
-    appId: "1:361562350094:web:e42faa1efd1a15805c925f",
-    measurementId: "G-NKM0FRHDM0"
+    apiKey: "AIzaSyBLWikJQLLqZthS-T41K1M4RenVzF4qsc4",
+    authDomain: "alipesandbox.firebaseapp.com",
+    databaseURL: "https://alipesandbox.firebaseio.com",
+    projectId: "alipesandbox",
+    storageBucket: "alipesandbox.appspot.com",
+    messagingSenderId: "676943200602",
+    appId: "1:676943200602:web:7b8c05f89af8447bc1b363"
 };
