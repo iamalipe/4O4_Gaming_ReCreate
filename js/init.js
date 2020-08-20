@@ -18,7 +18,6 @@ document.getElementById("form4o4").addEventListener("submit", submitForm);
 
 function submitForm(e) {
   e.preventDefault();
-  // console.log("Working");
   //get input value
   let videolink = document.getElementById("VideoLink").value;
   let catagory = document.getElementById("Catagory").options[document.getElementById("Catagory").selectedIndex].value;
