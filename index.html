@@ -14,37 +14,39 @@
 </head>
 
 <body>
-  <nav class="red accent-3 z-depth-3" role="navigation">
+  <nav class="light-blue darken-4 z-depth-3" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo"><img src="img/4O4Gaming_LOGO.svg" height="30"
           alt="4O4GAMING"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#" class="waves-effect">Home</a></li>
-        <li><a href="#" class="waves-effect">About</a></li>
-        <li><a href="#" class="waves-effect">Contect</a></li>
+        <li><a href="#form4o4" class="waves-effect">Home</a></li>
+        <li><a href="#about-id" class="waves-effect">About</a></li>
+        <li><a href="#contact-id" class="waves-effect">Contect</a></li>
         <li>
-          <a href="#" class="waves-effect"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.youtube.com/channel/UCqrY46PcJbPzfR4JUX1l0DA" class="waves-effect"><i
+              class="fab fa-youtube"></i></a>
         </li>
         <li>
-          <a href="#" class="waves-effect"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.facebook.com/4O4Game" class="waves-effect"><i class="fab fa-facebook"></i></a>
         </li>
         <li>
-          <a href="#" class="waves-effect"><i class="fab fa-discord"></i></a>
+          <a href="https://discord.gg/UsqrCvU" class="waves-effect"><i class="fab fa-discord"></i></a>
         </li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#" class="waves-effect">Home</a></li>
-        <li><a href="#" class="waves-effect">About</a></li>
-        <li><a href="#" class="waves-effect">Contact</a></li>
+        <li><a href="#form4o4" class="waves-effect">Home</a></li>
+        <li><a href="#about-id" class="waves-effect">About</a></li>
+        <li><a href="#contact-id" class="waves-effect">Contact</a></li>
         <li>
-          <a href="#" class="waves-effect"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.youtube.com/channel/UCqrY46PcJbPzfR4JUX1l0DA" class="waves-effect"><i
+              class="fab fa-youtube"></i></a>
         </li>
         <li>
-          <a href="#" class="waves-effect"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.facebook.com/4O4Game" class="waves-effect"><i class="fab fa-facebook"></i></a>
         </li>
         <li>
-          <a href="#" class="waves-effect"><i class="fab fa-discord"></i></a>
+          <a href="https://discord.gg/UsqrCvU" class="waves-effect"><i class="fab fa-discord"></i></a>
         </li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -58,9 +60,11 @@
         <div class="row center-align">
           <h3>Submit Your <span class="valorent">Valorent</span> Clip</h1>
             <div class="input-field col s12 l12">
-              <input id="VideoLink" type="text" class="validate" />
+              <input id="VideoLink" type="text" class="validate" required />
               <label for="VideoLink">Video Link</label>
-              <span class="helper-text left-align">We Accepted: Google Drive, YouTube Link, MEGA, Twitch Clip</span>
+              <span class="helper-text left-align"><b>We Accepted </b>: Google Drive, YouTube Link, MEGA, Twitch
+                Clip</span>
+              <span class="helper-text left-align"><b>NOTE</b> : </span>
               <span class="helper-text left-align" data-error="*Required" data-success="Right">*Required</span>
             </div>
             <div class="input-field col s12 l12">
@@ -71,26 +75,26 @@
                 <option value="Potato Moment">Potato Moment</option>
               </select>
               <label>Catagory</label>
-              <!-- <span class="helper-text left-align" data-error="*Required" data-success="Right">*Required</span> -->
+              <span class="helper-text left-align">*Required</span>
             </div>
             <div class="input-field col s12 l12">
-              <input id="InGameName" type="text" class="validate" />
+              <input id="InGameName" type="text" class="validate" required />
               <label for="InGameName">In Game Name</label>
               <span class="helper-text left-align" data-error="*Required" data-success="Right">*Required</span>
             </div>
             <div class="input-field col s12 l12">
-              <input id="Timestamp" type="text" class="validate" />
+              <input id="Timestamp" type="text" class="validate" required />
               <label for="Timestamp">Timestamp</label>
               <span class="helper-text left-align">Example: 00:10-03:24 or 00:10 To 03:24 or 00:10Min To 03:24Min</span>
               <span class="helper-text left-align" data-error="*Required" data-success="Right">*Required</span>
             </div>
             <div class="input-field col s12 l12">
-              <input id="RealName" type="text" class="validate" />
+              <input id="RealName" type="text" class="validate" required />
               <label for="RealName">Real Name</label>
               <span class="helper-text left-align" data-error="*Required" data-success="Right">*Required</span>
             </div>
             <div class="input-field col s12 l12">
-              <input id="Email" type="email" class="validate" />
+              <input id="Email" type="email" class="validate" required />
               <label for="Email">Email</label>
               <span class="helper-text left-align" data-error="*Required" data-success="Right">*Required</span>
             </div>
@@ -98,7 +102,7 @@
               <textarea id="Description" class="materialize-textarea" data-length="200"></textarea>
               <label for="Description">Description</label>
             </div>
-            <button class="btn waves-effect red accent-3" type="submit" name="action">Submit
+            <button class="btn waves-effect light-blue darken-4" type="submit" name="action">Submit
               <i class="material-icons right">send</i>
             </button>
         </div>
@@ -107,12 +111,12 @@
   </section>
   <br />
 
-  <footer class="page-footer red accent-3">
+  <footer class="page-footer light-blue darken-3">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
+        <div class="col l6 s12" id="about-id">
           <h5 class="white-text">About Us</h5>
-          <p class="grey-text text-lighten-4">
+          <p class="white-text">
             We are an Independent Group with some chivalry members.
             We are trying provide game and to grow Indian Gaming Community.
             We support all kind of players. This is a friendly place for all the gamers out there,
@@ -125,34 +129,36 @@
           <h5 class="white-text">Join us</h5>
           <ul>
             <li>
-              <a class="white-text" href="#!"><i class="fab fa-youtube"></i> /4O4Gaming</a>
+              <a class="white-text" href="https://www.youtube.com/channel/UCqrY46PcJbPzfR4JUX1l0DA"><i
+                  class="fab fa-youtube"></i> / 4O4GAMING</a>
             </li>
             <li>
-              <a class="white-text" href="#!"><i class="fab fa-facebook"></i> /4O4Gaming</a>
+              <a class="white-text" href="https://www.facebook.com/4O4Game"><i class="fab fa-facebook"></i> /
+                4O4GAME</a>
             </li>
             <li>
-              <a class="white-text" href="#!"><i class="fab fa-discord"></i> /4O4Gaming</a>
+              <a class="white-text" href="https://discord.gg/UsqrCvU"><i class="fab fa-discord"></i> / 4O4E-SPORTS</a>
             </li>
           </ul>
         </div>
-        <div class="col l3 s12">
+        <div class="col l3 s12" id="contact-id">
           <h5 class="white-text">Contact</h5>
           <ul>
             <li>
               <a class="white-text" href="mailto:abc@example.com"><i class="fas fa-envelope"></i>
                 4O4Gaming@Gmail.com</a>
             </li>
-            <li>
+            <!-- <li>
               <a class="white-text" href="tel:+919876543210"><i class="fas fa-phone"></i> 9876543210</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
+    <div class="footer-copyright  light-blue darken-4">
+      <div class="container center-align">
         Copyright &#9400; 2020
-        <a class="indigo-text text-darken-3" href="#">4O4GAMING</a>. All
+        <a class="white-text" href="#">4O4GAMING</a>. All
         Rights Reserved
       </div>
     </div>
